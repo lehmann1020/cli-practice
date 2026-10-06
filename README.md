@@ -5,31 +5,34 @@
 *Look through these now and then use them to test yourself after doing the assignment*
 
 * What is the command line?
+A text based navigation and user interface
 
 * How do you open it on your computer?
+command + spacebar then type terminal
 
 * How can you navigate into a particular file directory?
-    - Where will `cd .` navigate you to?
-    - Where will `cd ..` navigate you to?
-    - Where will `cd ~` navigate you to?
-    - Where will `cd /` navigate you to?
+    - Where will `cd .` navigate you to? nowhere, it's your current location
+    - Where will `cd ..` navigate you to? Up one level
+    - Where will `cd ~` navigate you to? to your username dir
+    - Where will `cd /` navigate you to? to the root dir
 
 
-* How can you display the name of the directory you are currently in?
+* How can you display the name of the directory you are currently in? pwd
 
-* How can you display the contents of the directory you are currently in?
+* How can you display the contents of the directory you are currently in? ls or ls -a to see hidden things too
 
-* How can you create a new directory?
+* How can you create a new directory? mkdir <name>
 
-* How can you create a new file?
+* How can you create a new file? touch name
 
-* How can you destroy a directory or file?
+* How can you destroy a directory or file? rm file_name rm -rf dir_name
 
-* How can you rename a directory or file?
+* How can you rename a directory or file? mv name1 name2
 
 ## Assignment:
 
 1. Complete this interactive course to get a great handle on the essentials of using a command-line interface and navigating directories - [Terminal Tutor](https://www.terminaltutor.com/)
+Done
 
 2. Complete the below exercise locally on your own computer.
 
@@ -41,7 +44,8 @@
 > |- doodles
 > |- code
 >```
-> and you were currently at home (`~`) all you would need to type is `e` and then hit tab to autocomplete. If you typed `d` and hi tab it would list the two possible matching options (`documents`, `doodles`) prompting you to type enough for it to know for sure what you mean when you hit tab. Tab autocomplete is a powerful feature when navigating a filesystem through the terminal as it let's you know what is available at any given level and allows you to not have write out entire file/folder names completely. Try to take advantage of it!
+> and you were currently at home (`~`) all you would need to type is `e` and then hit tab to autocomplete. If you typed `d` and hi[t] tab it would list the two possible matching options (`documents`, `doodles`) prompting you to type enough for it to know for sure what you mean when you hit tab. Tab autocomplete is a powerful feature when navigating a filesystem through the terminal as it let's you know what is available at any given level and allows you to not have write out entire file/folder names completely. Try to take advantage of it!
+ok
 
 ## Exercise:
 
